@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe World - Recipes</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Navigation Header -->
+    <header class="bg-light shadow-sm">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                    <h1 class="navbar-brand mb-0 display-4 text-secondary">RECIPE WORLD</h1>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">HOME</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="recipe-list.html">RECIPES</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="suggest.html">SUGGEST</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container my-5">
+        <h2 class="text-center display-4 text-primary mb-5">RECIPES</h2>
+
+        <!-- Recipe 1: Magic Cake -->
+        <div class="recipe-card row mb-4 p-3 border rounded shadow-sm">
+            <div class="col-md-3">
+                <img src="images/magic-cake.jpg" alt="Magic Cake" class="img-fluid rounded recipe-image" data-recipe="magic-cake">
+            </div>
+            <div class="col-md-9">
+                <h3 class="text-danger">
+                    <a href="recipe-detail.html?recipe=magic-cake" class="recipe-link text-decoration-none">Magic Cake</a>
+                </h3>
+                <p class="text-muted">
+                    A delightful three-layer cake that magically separates into layers while baking. 
+                    Features a creamy custard center with a light sponge top and dense bottom layer. 
+                    Perfect for impressing guests!
+                </p>
+            </div>
+        </div>
+
+        <!-- Recipe 2: Korean Fried Chicken -->
+        <div class="recipe-card row mb-4 p-3 border rounded shadow-sm">
+            <div class="col-md-3">
+                <img src="images/korean-chicken.jpg" alt="Korean Fried Chicken" class="img-fluid rounded recipe-image" data-recipe="korean-chicken">
+            </div>
+            <div class="col-md-9">
+                <h3 class="text-danger">
+                    <a href="recipe-detail.html?recipe=korean-chicken" class="recipe-link text-decoration-none">Korean Fried Chicken</a>
+                </h3>
+                <p class="text-muted">
+                    Crispy, double-fried chicken coated in a sweet and spicy Korean-style sauce. 
+                    Features an ultra-crunchy exterior with juicy, tender meat inside. 
+                    A crowd-pleasing dish perfect for any occasion!
+                </p>
+            </div>
+        </div>
+
+        <!-- Recipe 3: Easy Vegetarian Pasta -->
+        <div class="recipe-card row mb-4 p-3 border rounded shadow-sm">
+            <div class="col-md-3">
+                <img src="images/vegetarian-pasta.jpg" alt="Vegetarian Pasta" class="img-fluid rounded recipe-image" data-recipe="vegetarian-pasta">
+            </div>
+            <div class="col-md-9">
+                <h3 class="text-danger">
+                    <a href="recipe-detail.html?recipe=vegetarian-pasta" class="recipe-link text-decoration-none">Easy Vegetarian Pasta</a>
+                </h3>
+                <p class="text-muted">
+                    A quick and healthy pasta dish loaded with fresh vegetables and herbs. 
+                    Light garlic olive oil sauce brings everything together perfectly. 
+                    Ready in under 30 minutes!
+                </p>
+            </div>
+        </div>
+
+        <!-- Recipe 4: Chocolate Chip Cookies -->
+        <div class="recipe-card row mb-4 p-3 border rounded shadow-sm">
+            <div class="col-md-3">
+                <img src="images/chocolate-cookies.jpg" alt="Chocolate Chip Cookies" class="img-fluid rounded recipe-image" data-recipe="chocolate-cookies">
+            </div>
+            <div class="col-md-9">
+                <h3 class="text-danger">
+                    <a href="recipe-detail.html?recipe=chocolate-cookies" class="recipe-link text-decoration-none">Chocolate Chip Cookies</a>
+                </h3>
+                <p class="text-muted">
+                    Classic homemade chocolate chip cookies with crispy edges and chewy centers. 
+                    Loaded with chocolate chips in every bite. 
+                    The perfect comfort food dessert!
+                </p>
+            </div>
+        </div>
+
+        <!-- Recipe 5: Fresh Fruit Tart -->
+        <div class="recipe-card row mb-4 p-3 border rounded shadow-sm">
+            <div class="col-md-3">
+                <img src="images/fruit-tart.jpg" alt="Fresh Fruit Tart" class="img-fluid rounded recipe-image" data-recipe="fruit-tart">
+            </div>
+            <div class="col-md-9">
+                <h3 class="text-danger">
+                    <a href="recipe-detail.html?recipe=fruit-tart" class="recipe-link text-decoration-none">Fresh Fruit Tart</a>
+                </h3>
+                <p class="text-muted">
+                    An elegant dessert featuring a buttery pastry crust filled with vanilla custard 
+                    and topped with an assortment of fresh, colorful fruits. 
+                    Beautiful and delicious!
+                </p>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-light text-center py-3 mt-5">
+        <p class="mb-0 text-muted">&copy 2025 - RECIPE WORLD - Felipe D Quiñones</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+</body>
+</html>

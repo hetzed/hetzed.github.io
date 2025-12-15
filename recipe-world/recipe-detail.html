@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe World - Recipe Details</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Navigation Header -->
+    <header class="bg-light shadow-sm">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                    <h1 class="navbar-brand mb-0 display-4 text-secondary">RECIPE WORLD</h1>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">HOME</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="recipe-list.html">RECIPES</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="suggest.html">SUGGEST</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container my-5">
+        <!-- Recipe Title (will be updated by JavaScript) -->
+        <h2 class="text-center display-4 text-primary mb-4" id="recipeTitle">MAGIC CAKE</h2>
+
+        <div class="row">
+            <!-- Left Column: Image -->
+            <div class="col-md-6 mb-4">
+                <img src="images/magic-cake.jpg" alt="Recipe" class="img-fluid rounded shadow" id="recipeMainImage">
+            </div>
+
+            <!-- Right Column: Ingredients -->
+            <div class="col-md-6">
+                <h3 class="text-info mb-3">Ingredients:</h3>
+                <ul id="ingredientsList" class="list-group list-group-flush">
+                    <li class="list-group-item">4 eggs (at room temperature)</li>
+                    <li class="list-group-item">3/4 cup sugar</li>
+                    <li class="list-group-item">8 tablespoon butter (unsalted and melted)</li>
+                    <li class="list-group-item">1 teaspoon vanilla extract</li>
+                    <li class="list-group-item">3/4 cup all-purpose flour</li>
+                    <li class="list-group-item">2 cups milk (lukewarm)</li>
+                    <li class="list-group-item">powdered sugar (for dusting)</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Directions Section -->
+        <div class="row mt-5">
+            <div class="col-12">
+                <h3 class="text-info mb-3">Directions:</h3>
+                <ol id="directionsList" class="directions-list">
+                    <li class="mb-3">Preheat the oven to 325°F (160°C). Grease and line an 8x8 inch baking pan.</li>
+                    <li class="mb-3">Separate the egg whites from the yolks. Beat the egg whites until stiff peaks form, then set aside.</li>
+                    <li class="mb-3">In a large bowl, beat the egg yolks with sugar until light and fluffy.</li>
+                    <li class="mb-3">Add melted butter and vanilla extract to the yolk mixture and combine well.</li>
+                    <li class="mb-3">Gradually add flour and mix until smooth.</li>
+                    <li class="mb-3">Slowly add lukewarm milk while continuously stirring. The mixture will be very liquid.</li>
+                    <li class="mb-3">Gently fold in the beaten egg whites using a spatula. Mix carefully to maintain airiness.</li>
+                    <li class="mb-3">Pour the batter into the prepared pan and bake for 40-60 minutes until the top is golden brown.</li>
+                    <li class="mb-3">Let cool completely before cutting. Dust with powdered sugar before serving.</li>
+                </ol>
+            </div>
+        </div>
+
+        <!-- Photos Section -->
+        <div class="row mt-5">
+            <div class="col-12">
+                <h3 class="text-info mb-3">Photos:</h3>
+                <div class="row" id="photosGallery">
+                    <div class="col-md-6 mb-3">
+                        <img src="images/magic-cake.jpg" alt="Magic Cake Photo 1" class="img-fluid rounded shadow">
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <img src="images/korean-chicken.jpg" alt="Magic Cake Photo 2" class="img-fluid rounded shadow">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-light text-center py-3 mt-5">
+        <p class="mb-0 text-muted">&copy 2025 - RECIPE WORLD - Felipe D Quiñones</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+</body>
+</html>
